@@ -1,0 +1,5 @@
+12:27:19.584 [main] INFO  api.tests.UserTests2 - **********user info is displayed***********
+12:27:19.603 [main] INFO  api.tests.UserTests2 - **********updating user info***********
+12:27:24.085 [main] INFO  api.tests.UserTests2 - **********user updated***********
+12:27:24.094 [main] INFO  api.tests.UserTests2 - **********deleting user***********
+12:27:25.825 [main] INFO  api.tests.UserTests2 - **********user deleted***********
