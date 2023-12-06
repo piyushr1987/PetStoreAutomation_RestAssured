@@ -27,7 +27,7 @@ public class DataDrivenTest {
 		Assert.assertEquals(res.getStatusCode(), 200);
 	}
 
-	@Test(priority = 2, dataProvider = "UserNames", dataProviderClass = DataProviders.class)
+	@Test(priority = 2, dataProvider = "UserId", dataProviderClass = DataProviders.class)
 	public void testGetDeleteUserByName(String username) {
 		Response res = UserEndPoints.deleteUser(username);
 
